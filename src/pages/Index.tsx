@@ -21,13 +21,13 @@ const Index = () => {
         
         <div className="pt-8 animate-fade-in-delay-2">
           <a 
-            href="https://www.linkedin.com/groups/12637490/" 
+            href="https://www.linkedin.com/minjiclairekim/" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full transition-all duration-300 hover:scale-105 hover:shadow-elegant group"
           >
             <Linkedin size={24} className="group-hover:scale-110 transition-transform duration-300" />
-            <span className="font-medium">Connect with us</span>
+            <span className="font-medium">Connect with me</span>
           </a>
         </div>
       </div>
