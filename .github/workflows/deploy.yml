@@ -15,9 +15,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install   # ⚡️ package-lock.json 있으면 npm ci로 바꿔도 됨
+        run: npm ci   # package-lock.json이 있으면 ci, 없으면 npm install
 
       - name: Build
         run: npm run build
