@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => {
   return {
-    base: "/", // ✅ custom domain은 무조건 루트
+    base: "/",
     server: {
       host: "::",
       port: 8080,
